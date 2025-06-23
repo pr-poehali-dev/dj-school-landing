@@ -23,10 +23,10 @@ const Header = () => {
               О школе
             </a>
             <a
-              href="#programs"
+              href="#target"
               className="text-white hover:text-neon-pink transition-colors font-roboto"
             >
-              Программы
+              Для кого
             </a>
             <a
               href="#genres"
@@ -38,7 +38,7 @@ const Header = () => {
               href="#gallery"
               className="text-white hover:text-neon-green transition-colors font-roboto"
             >
-              Студия
+              Галерея
             </a>
             <a
               href="#contact"
@@ -66,10 +66,10 @@ const Header = () => {
                 О школе
               </a>
               <a
-                href="#programs"
+                href="#target"
                 className="text-white hover:text-neon-pink transition-colors font-roboto"
               >
-                Программы
+                Для кого
               </a>
               <a
                 href="#genres"
@@ -81,7 +81,7 @@ const Header = () => {
                 href="#gallery"
                 className="text-white hover:text-neon-green transition-colors font-roboto"
               >
-                Студия
+                Галерея
               </a>
               <a
                 href="#contact"
