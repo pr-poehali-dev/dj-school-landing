@@ -6,7 +6,7 @@ const config: Config = {
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}"
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -56,11 +56,9 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        neon: {
-          green: "#00ff88",
-          pink: "#ff0080",
-          blue: "#0080ff",
-        },
+        "neon-green": "hsl(var(--neon-green))",
+        "neon-pink": "hsl(var(--neon-pink))",
+        "neon-blue": "hsl(var(--neon-blue))",
       },
       borderRadius: {
         lg: "var(--radius)",
